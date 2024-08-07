@@ -1,0 +1,34 @@
+.HowWeWork-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.OurPresence-downloads-main {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.OurPresence-downloads-sub {
+    font-weight: 500;
+    padding: 14px;
+}
+.OurPresence-downloads-icon{
+    font-size: 50px;
+    margin: 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 769px) {
+.OurPresence-downloads-1 .OurPresence-downloads-icon{
+    font-size: 30px;
+    margin: 23px;
+}
+.HowWeWork .OurPresence-downloads-1 {
+    height: 80px;
+    width: 80px;
+}
+}
+
+
+.HowWeWork-section  .OurPresence-downloads{
+display: flex;
+justify-content: center;
+}

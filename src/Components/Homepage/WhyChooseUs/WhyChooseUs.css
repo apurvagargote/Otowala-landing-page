@@ -1,0 +1,85 @@
+.WhyChooseUs {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.WhyChooseUs-square-1 {
+    position: relative;
+    height: 100%;
+   
+    background: transparent linear-gradient(180deg, #EF6E2600 0%, #f8d8c7 100%) 0% 0% no-repeat padding-box;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.WhyChooseUs-square-1:hover {
+    background: transparent linear-gradient(180deg, #EF6E2600 0%, #fdc09f 100%) 0% 0% no-repeat padding-box;
+}
+
+.WhyChooseUs-square-2 {
+    position: absolute;
+    top: -60px;
+    left: 27%;
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+}
+
+.WhyChooseUs-square {
+    margin-top: 100px;
+}
+
+.WhyChooseUs-square-icon {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.WhyChooseUs-square-text-main {
+    font-weight: 600;
+}
+
+.WhyChooseUs-square-text-main p {
+    margin-bottom: 0px;
+}
+
+.WhyChooseUs-square-text {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* styles.css */
+.WhyChooseUs-square-2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.WhyChooseUs-square-2 .WhyChooseUs-square-icon {
+    transition: transform 0.2s ease-in-out;
+}
+
+.WhyChooseUs-square-2:hover .WhyChooseUs-square-icon {
+    transform: translateY(-10px);
+}
+.WhyChooseUs-square-card{
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+    .WhyChooseUs-square-1 {
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 770px){
+    
+    .WhyChooseUs-square-2 {
+       
+        top: -60px;
+        left: 34%;
+       
+    }
+}

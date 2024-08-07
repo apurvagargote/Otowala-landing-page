@@ -1,0 +1,186 @@
+.OurPresence-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.OurPresence-img {
+    height: 376px;
+    width: auto;
+}
+
+.OurPresence-section .OurPresence-downloads {
+    display: flex;
+    justify-content: center;
+}
+
+ .OurPresence-downloads-1 {
+
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #EF6E26;
+}
+
+.OurPresence-downloads-2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(240, 243, 51);
+    margin: 19px;
+}
+
+.OurPresence-downloads-all {
+    height: 177px;
+}
+
+.fa-fa-icon {
+    margin: 17px;
+    font-size: 30px;
+}
+
+.OurPresence-downloads-text {
+    margin-top: 30px;
+}
+
+/* styles.css */
+.OurPresence-img-downloads {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    /* Ensure this is behind the content */
+}
+
+.OurPresence-img-downloads::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/assets/images/homapage/OurPresence/OurPresence_background.png');
+    background-position: center;
+    background-size: cover;
+    transition: top 0.4s ease-in-out;
+    z-index: -1;
+    /* Ensure the image is behind the content */
+    background-repeat: no-repeat;
+}
+
+.OurPresence-img-downloads:hover::after {
+    top: 0;
+}
+
+.OurPresence-section .OurPresence-stip-img {
+    width: 550px;
+}
+
+@media only screen and (min-width: 0px) and (max-width:319px) {
+    .OurPresence-img {
+        height: 140px;
+    }
+
+    .OurPresence-downloads-1 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .OurPresence-downloads-2 {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(240, 243, 51);
+        margin: 15px;
+    }
+
+    .fa-fa-icon {
+        margin: 11px;
+        font-size: 14px;
+    }
+
+    .OurPresence-stip-img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:474px) {
+    .OurPresence-img {
+        height: 190px;
+    }
+
+    .OurPresence-stip-img {
+        width: 300px;
+    }
+
+    .OurPresence-downloads-2 {
+
+        border-radius: 50%;
+        background-color: rgb(240, 243, 51);
+
+    }
+
+    .fa-fa-icon {
+        margin: 13px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 574px) {
+    .OurPresence-img {
+        height: 260px;
+    }
+
+    .OurPresence-downloads-1 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .OurPresence-downloads-2 {
+        height: 54px;
+        width: 54px;
+        border-radius: 50%;
+        background-color: rgb(240, 243, 51);
+        margin: 12px;
+    }
+
+    .fa-fa-icon {
+        margin: 15px;
+        font-size: 20px;
+    }
+
+    .OurPresence-stip-img {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+    .OurPresence-img {
+        height: 276px;
+    }
+
+    .OurPresence-downloads-1 {
+        height: 90px;
+        width: 90px;
+    }
+
+    .OurPresence-downloads-2 {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: rgb(240, 243, 51);
+        margin: 14px;
+    }
+
+    .fa-fa-icon {
+        margin: 15px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 485px) {
+    .OurPresence-img-downloads .OurPresence-downloads {
+        display: grid;
+
+    }
+}

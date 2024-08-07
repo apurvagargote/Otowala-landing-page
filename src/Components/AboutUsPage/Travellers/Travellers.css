@@ -1,0 +1,57 @@
+.Travellers {
+    height:100%;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #E8E20045 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+}
+
+.Travellers .para {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.Travellers .img-1 {
+    border: 6px #EF6E26 solid;
+    width: 96%;
+    height: 220px;
+    border-radius: 20px;
+}
+.Travellers .img-2 {
+    border: 6px #E8E200 solid;
+    width: 100%;
+    border-radius: 20px;
+    height: 173px;
+}
+.main-para-tarvellers{
+padding: 30px 60px 0px 40px;
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .Travellers .img-2 {
+        border: 6px #E8E200 solid;
+        width: 100%;
+        border-radius: 20px;
+        height: 201px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 424px) {
+    .Travellers .img-2 {
+        border: 6px #E8E200 solid;
+        width: 100%;
+        border-radius: 20px;
+        height: 153px;
+    }
+    .Travellers .img-1 {
+        border: 6px #EF6E26 solid;
+        width: 100%;
+        height: 156px;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 991px){
+    .main-para-tarvellers {
+        padding: 10px 10px 0px 0px;
+    }
+}

@@ -1,0 +1,25 @@
+.Privacypolicy-section{
+    background: transparent linear-gradient(180deg, #E8E20045 0%, #FFFFFF00 100%) ;
+    height: 100%;
+    width: 100%;
+}
+.USERACCEPTANCE-para, .DEFINITIONS-para, .INFORMATION-para , .INFORMATION-sub-heading, .INFORMATION-para-2 {
+    margin-left: 15px;
+}
+.USERACCEPTANCE-subpara, .USERACCEPTANCE-subpara-a{
+    margin-left: 30px;
+}
+.Privacypolicy-heading{
+    position: relative;
+}
+.Privacypolicy-heading .title:after {
+    background-color: #000;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-left: 35%;
+    top: 50%;
+    position: absolute;
+    width: 65%;
+    z-index: -2;
+}

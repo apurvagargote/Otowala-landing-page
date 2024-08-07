@@ -1,0 +1,21 @@
+.OurMissionvision-section{
+    margin-top: 100px;
+}
+
+.Our-vision, .Our-mission{
+    height: 100%;
+    width: 100%;
+    background-color: #ffefe7;
+    border-radius: 10px;
+    padding:20px 30px 10px 30px;
+}
+.Our-vision-para, .Our-mission-para{
+    text-align: justify;
+   font-weight: 500;
+}
+.Our-vision-heading, .Our-mission-heading{
+    font-weight: 700;
+}
+.fa-fa-bookmark{
+    color: orange;
+}

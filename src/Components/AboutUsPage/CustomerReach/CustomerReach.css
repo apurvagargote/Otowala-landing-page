@@ -1,0 +1,99 @@
+.CustomerReach-section {
+    margin-top: 150px;
+}
+
+.CustomerReach {
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/assets/images/aboutus/customerreach/background-img.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.CustomerReach-downloads {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CustomerReach-section .CustomerReach-downloads-1 {
+
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #EF6E26;
+}
+
+.CustomerReach-section .CustomerReach-downloads-2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(240, 243, 51);
+    margin: 19px;
+}
+
+.box-1 {
+    background: transparent linear-gradient(258deg, #EF6E26 0%, #E8E200 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+.box-2 {
+    position: relative;
+    z-index: 1;
+  
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -130px;
+}
+
+.bacgordd{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    left: 0;
+
+}
+
+.CustomerReach-downloads-strip{
+    text-align: center;
+}
+
+.CustomerReach-stip-img{
+    width: 95%;
+}
+
+@media only screen and (min-width: 280px) and (max-width:575px){
+    .CustomerReach-section .CustomerReach-downloads-1 {
+        height: 98px;
+        width: 98px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 10px;
+        border: 1px solid #EF6E26;
+    }
+    .CustomerReach-section .CustomerReach-downloads-2 {
+        height: 62px;
+        width: 62px;
+        border-radius: 50%;
+        background-color: rgb(240, 243, 51);
+        margin: 18px;
+    }
+    .CustomerReach-section .fa-fa-icon {
+        margin: 15px;
+        font-size: 22px;
+    }
+}
